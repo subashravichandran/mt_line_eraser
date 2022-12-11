@@ -9,7 +9,7 @@ class MtLineEraser
       end
       [original_file, clone_file].map{|_file| _file.close}
       File.rename(clone_file, original_file)
-      p "Removed all the empty lines from #{file_name_with_path}"
+      "Erased all the empty lines from #{file_name_with_path}"
     end
   end
 end
