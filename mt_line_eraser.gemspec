@@ -3,7 +3,14 @@ Gem::Specification.new do |spec|
   spec.authors = ["Subash R"]
   spec.email   = ["waytosubash@gmail.com"]
   spec.files   = Dir["lib/**/**.rb"]
+  spec.version = "0.0.3"
+
   spec.summary = "A gem to erase the empty lines from any given file"
-  spec.version = "0.0.2"
+  spec.description = "Erase the empty lines in a specified file"
+  spec.homepage = "https://github.com/subashravichandran/mt_line_eraser"
+  spec.license = "MIT"
+  spec.required_ruby_version = ">= 2.6.0"
+
+  spec.metadata["homepage_uri"] = spec.homepage
 end
 
