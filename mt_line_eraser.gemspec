@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
+  spec.metadata["source_code_uri"]  = "https://github.com/subashravichandran/mt_line_eraser/blob/main/lib/mt_line_eraser.rb"
   spec.metadata["homepage_uri"] = spec.homepage
 end
 
