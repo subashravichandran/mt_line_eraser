@@ -6,7 +6,7 @@ class MtLineEraser
       return 'Invalid File path' unless File.exist?(file_or_dir_path)
 
       files_to_be_processed = if File.file?(file_or_dir_path)
-                                file_or_dir_path
+                                [file_or_dir_path]
                               else
                                 Dir["#{file_or_dir_path}/**/*.*"]
                               end
