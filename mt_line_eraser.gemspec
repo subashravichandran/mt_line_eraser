@@ -3,7 +3,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Subash R"]
   spec.email   = ["waytosubash@gmail.com"]
   spec.files   = Dir["lib/**/**.rb"]
-  spec.version = "0.0.4"
+  spec.version = "0.0.5"
 
   spec.summary = "A gem to erase the empty lines from any given file"
   spec.description = "Erase the empty lines in a specified file"
